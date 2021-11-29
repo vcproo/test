@@ -16,7 +16,7 @@ class Index extends Common
             $param = $this->request->param();
             $indexModel->classType($param,$userInfo);
         }else{
-            echo '非法请求！';exit;
+            echo '非法请求！b分支提交';exit;
         }
     }
 
