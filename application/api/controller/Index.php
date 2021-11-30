@@ -30,7 +30,7 @@ class Index extends Common
             //获取收支列表
             $billList = $indexModel->getBillList($param,$userInfo);
         }else{
-            echo '非法请求！';exit;
+            echo '非法请求！b分支提交';exit;
         }
     }
 
